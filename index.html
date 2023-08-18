@@ -3,11 +3,38 @@
   <head>
     <title>Wallpack</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
     <link rel="stylesheet" href="https://itsfoxdev.github.io/lib/scrollbar.css">
   </head>
   <body>
-    <img id="background"src="images/background.jpg">
-
     <h1>WallPack</h1>
+    <window state="home">
+      <section type="home">
+        <div class="category ce" onclick="openCategory('macos',this)">
+          <img class="cbg" src="images/categories/bg/macos.png">
+          <img class="cfg" src="images/categories/logo/macos.png">
+        </div>
+        <div class="category ce" onclick="openCategory('windows',this)">
+          <img class="cbg" src="images/categories/bg/windows.png">
+          <img class="cfg" src="images/categories/logo/windows.png">
+        </div>
+        <div class="category ce" onclick="openCategory('linux',this)">
+          <img class="cbg" src="images/categories/bg/linux.png">
+          <img class="cfg" src="images/categories/logo/linux.png">
+        </div>
+        <div class="category ce" onclick="openCategory('office',this)">
+          <img class="cbg" src="images/categories/bg/office.png">
+          <img class="cfg" src="images/categories/logo/office.png">
+        </div>
+        <div class="category ce" onclick="openCategory('basicappleguy',this)">
+          <img class="cbg" src="images/categories/bg/basicappleguy.png">
+          <img class="cfg" src="images/categories/logo/basicappleguy.png">
+        </div>
+        <div class="category ce" onclick="openCategory('wavey',this)">
+          <img class="cbg" src="images/categories/bg/wavey.png">
+          <img class="cfg" src="images/categories/logo/wavey.png">
+        </div>
+      </section>
+    </window>
   </body>
 </html>
