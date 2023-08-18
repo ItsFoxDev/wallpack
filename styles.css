@@ -1,0 +1,21 @@
+@import url("https://itsfoxdev.github.io/resources/fonts/productsans/import.css");
+*{
+  font-family: Product Sans;
+}
+h1{
+  font-weight:800;
+  text-align:center;
+  color:rgb(245, 241, 255);
+  font-size:45px;
+}
+#background{
+  width:100vw;
+  height:100vh;
+  inset:0px;
+  position:fixed;
+  z-index:-5;
+  object-fit:cover;
+  scale:1.1;
+  filter:blur(10px) brightness(0.7)/**/;
+  -webkit-filter:blur(10px) brightness(0.7)/**/;
+}
